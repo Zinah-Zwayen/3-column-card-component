@@ -96,7 +96,8 @@ p{
 }
 
 .button1:hover{
-    background-color: var(--Bright-orange);
+    
+    background-color: var(--Braight-orange);
     border: 3px solid var(--Transparent-white);
     color: var(--Transparent-white);
     cursor: pointer;
@@ -168,7 +169,6 @@ p{
     -o-transition: all .4s ease-in-out;
 }
 
-
 .attribution { 
     font-size: 11px;
     text-align: center;
@@ -180,14 +180,16 @@ p{
 }
 
 @media only screen and (max-width: 375px) {
-    
+    body{
+        position: relative;
+    }
     .container{
+        position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 300px;   
-         
+        width: 300px;  
     }
     .card1{
         border-radius: 8px 8px 0 0;
