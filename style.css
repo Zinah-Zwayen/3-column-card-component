@@ -81,7 +81,7 @@ p{
 }
 
 
-.button1{
+.btn{
     padding: 10px 20px ;
     color: var(--Bright-orange);
     background-color: var(--Very-light-gray);
@@ -92,6 +92,7 @@ p{
     -o-border-radius: 30px;
     border-color: var(--Transparent-white);
     font-weight: 700;
+    border: 3px solid var(--Transparent-white);
     
 }
 
